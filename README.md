@@ -18,6 +18,10 @@
 
 ## **Installation**
 
+```
+composer require rez1pro/lara-paypal
+```
+
 1. Add the following environment variables to your `.env` file:
 ``` 
 LARA_PAYPAL_CLIENT_ID=your-paypal-client-id
