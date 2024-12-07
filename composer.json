@@ -22,10 +22,7 @@
         "laravel": {
             "providers": [
                 "Rez1pro\\LaraPaypal\\LaraPaypalServiceProvider"
-            ],
-            "aliases": {
-                "LaraPaypal": "Rez1pro\\LaraPaypal\\Facades\\LaraPaypal"
-            }
+            ]
         }
     },
     "minimum-stability": "dev",
