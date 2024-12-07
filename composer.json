@@ -1,0 +1,21 @@
+{
+    "name": "rez1pro/lara-paypal",
+    "description": "payment with paypal into laravel",
+    "type": "composer-plugin",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rez1pro\\LaraPaypal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rez1pro",
+            "email": "programmerrezwan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
