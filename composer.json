@@ -18,13 +18,6 @@
             "email": "programmerrezwan@gmail.com"
         }
     ],
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Rez1pro\\LaraPaypal\\LaraPaypalServiceProvider"
-            ]
-        }
-    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
