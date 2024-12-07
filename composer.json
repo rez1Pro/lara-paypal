@@ -1,7 +1,7 @@
 {
     "name": "rez1pro/lara-paypal",
     "description": "A Laravel PayPal integration package",
-    "type": "library",
+    "type": "composer-plugin",
     "require": {
         "php": "^7.4|^8.0",
         "guzzlehttp/guzzle": "^7.8"
