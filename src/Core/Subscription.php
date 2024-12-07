@@ -155,7 +155,7 @@ class Subscription extends PaypalAuthentication
         return json_decode($response->getBody()->getContents());
     }
 
-    public function cancelSubscription($subscriptionId, $reason = '')
+    public function cancelSubscription($subscriptionId, $reason = 'Customer requested')
     {
         $response = $this->client->post(config('lara-paypal.base_url') . '/billing/subscriptions/' . $subscriptionId . '/cancel', [
             'headers' => [
